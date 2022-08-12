@@ -1,0 +1,115 @@
+.navbar{
+    background-color: #D32F2F !important;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+}
+
+.navbar-brand img{
+    border-radius: 10px;
+    width: 78px;
+    height: 50px;
+}
+.fa-shopping-cart,.fa-user-circle-o{
+    font-size: 2.0rem;
+    filter: invert(100);
+    margin-left: 10px;
+}
+
+.mainCard{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0 5% 0;
+}
+
+
+
+.card1,.card2,.card3{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 100px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    color: #D32F2F;
+}
+.icon{
+    margin-right: 1% ;
+}
+
+
+.btn-primary{
+    width: 100%;
+    background-color: #D32F2F;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+
+}
+.card{
+    width: 80%;
+    height: 100%;
+    margin: 10px auto 10px auto;
+}
+
+.heading h1{
+    text-align: center;
+    color: #D32F2F;
+    font-weight: 900;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 4px #D32F2F;
+}
+
+.footer{
+    width: 100%;
+    background-color: #D32F2F;
+    height: 50px;
+    margin-top: 10px;
+}
+.copyright h6{
+    text-align: center;
+    /* padding-top: 15px; */
+    color: white;
+}
+
+
+
+
+
+
+
+/* for mob screen */
+@media only screen and (min-width:640px){
+    .mainCard{
+        display: flex;
+        flex-direction: row;
+    }
+    .card1,.card2,.card3{
+        width: 30%;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .card{
+        width: 250px;
+        /* height: 250px; */
+        margin: 10px auto 10px auto;
+    }
+}
